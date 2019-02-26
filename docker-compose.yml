@@ -48,4 +48,3 @@ services:
           PMA_PORT: 3306
         ports:
           - "8090:80"
-command: sh wp.sh
