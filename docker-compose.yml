@@ -48,4 +48,4 @@ services:
           PMA_PORT: 3306
         ports:
           - "8090:80"
-command: sh curl -s https://wordpress.org/latest.tar.gz | tar xvz  -C ./nginx/www
+command: sh wp.sh
